@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: white;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather',serif;
+  color: black;
+}
+
+.body {
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: #9e2118;
+}
+.navbar-start {
+  margin-top: -0.5%;
+  margin-bottom: -0.5%;
+}
+.navbar li {
+  padding: 5px;
+}
+
+.home {
+  width: 100%;
+  gap: 10px;
+  padding: 15px;
+}
+.news{
+  width: 100%;
+}
+.teens {
+  width: 75%;
+}
+.side {
+  width: 25%;
+}
+
+.homepage {
+  justify-content: space-bewteen;
+  margin-right: -5%;
+}
+
+hr {
+  border-color: gray;
+}
+
+.footer {
+  background-color: rgb(107,0,0) !important;
+}
+
+.cardho:hover {
+  transform: scale(1.05);
+}
+
+.active {
+  background-color:#87140c !important;
+  padding: 1rem;
+  color: black;
+}
+.inactive {
+  padding: 1rem;
+  color: black;
+}
+
+.navd {
+  background-color: #9e2117 !important;
+}
+
+.btn-primary {
+  background-color: #87140c !important;
+}
+
+.cardside {
+  background-color: #d39894 !important;
+}
+
+.main:hover {
+  text-decoration: underline !important;
 }
